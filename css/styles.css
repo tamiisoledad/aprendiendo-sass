@@ -1,0 +1,185 @@
+@import "vendors/normalize.css";
+@import "vendors/font-awesome.min.css";
+.text-center {
+  text-align: center;
+}
+
+.p-0 {
+  padding: 0rem;
+}
+
+.p-1 {
+  padding: 0.5rem;
+}
+
+.p-2 {
+  padding: 1rem;
+}
+
+.p-3 {
+  padding: 1.5rem;
+}
+
+.p-4 {
+  padding: 2rem;
+}
+
+/* Estilo para el contenedor general de la pagina */
+.container {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.row > .col-1 {
+  width: 12.5%;
+}
+
+.row > .col-2 {
+  width: 25%;
+}
+
+.row > .col-3 {
+  width: 37.5%;
+}
+
+.row > .col-4 {
+  width: 50%;
+}
+
+.row > .col-5 {
+  width: 62.5%;
+}
+
+.row > .col-6 {
+  width: 75%;
+}
+
+.row > .col-7 {
+  width: 87.5%;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+.btn:hover {
+  box-shadow: 0.4rem/2 0.4rem/2 #888;
+}
+.btn:active {
+  background-color: orange;
+  color: white;
+}
+
+.btn-error {
+  background-color: #ff0000;
+}
+
+.btn-warning {
+  background-color: #eff178;
+}
+
+.btn-accepted {
+  background-color: #378a00;
+}
+
+.btn-normal {
+  background-color: #006eff;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+tbody tr td:nth-child(1) {
+  background-color: #888888;
+}
+
+tbody tr td:nth-child(2) {
+  background-color: #cccccc;
+}
+
+tbody tr td:nth-child(3) {
+  background-color: #888888;
+}
+
+tbody tr td:nth-child(4) {
+  background-color: #cccccc;
+}
+
+tbody tr td:nth-child(5) {
+  background-color: #888888;
+}
+
+tbody tr td:nth-child(6) {
+  background-color: #cccccc;
+}
+
+tbody tr td:nth-child(7) {
+  background-color: #888888;
+}
+
+tbody tr td:nth-child(8) {
+  background-color: #cccccc;
+}
+
+tbody tr td:nth-child(9) {
+  background-color: #888888;
+}
+
+/* Usando anidamiento para rear la hoja de estilos para un menu */
+nav {
+  background-color: #9b6f91;
+  padding: 0.2rem;
+}
+nav ul li {
+  display: inline-block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+nav ul li.active {
+  color: #ffffff;
+  font-weight: bolder;
+}
+nav ul li:hover {
+  color: #ffffff;
+}
+nav ul li a {
+  text-decoration: none;
+}
+
+figure.card {
+  border: 0.1rem solid #333333;
+  border-radius: 1rem;
+  display: inline-block;
+  padding: 1rem;
+}
+figure.card img {
+  border-radius: 2rem;
+  width: 100%;
+}
+figure.card img:hover {
+  transition: linear 3s;
+  transform: rotate(360deg);
+}
+figure.card figcaption {
+  font-size: 0.8rem;
+  margin: 0.5rem;
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

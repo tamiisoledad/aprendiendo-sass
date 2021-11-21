@@ -1,0 +1,32 @@
+///Mixin para dar estilos al elemento principal, la fila de la maquetacion
+/// @group layout
+@mixin flex_mixin {
+    display: flex;
+    flex-direction: row;
+}
+
+/// Mixin para dar colores de fondo con gradientes a los botones
+/// @parameter {color} $color-inicial -Color superior del gradiente
+/// @parameter {color} $olor-final - Color final del gradiente
+/// @group botones
+@mixin gradient-x($color-inicial, $color-final){
+    background-image: linear-gradient(
+        to bottom,
+        $color-inicial 70%,
+        $color-final 100%
+    );
+}
+
+/// Mixin para fijar la duracion de una transformacion
+/// @parameter {integer} $num_segundos -Numero que durara la transformacion
+/// @group cards
+@mixin duration($num_segundos){
+    transition: linear #{$num_segundos + "s"};
+}
+
+/// Mixin para establecer en un elemento una animacion de un numero determinado
+/// @group cards
+/// @parameter {integer} $num_vueltas - Numero de vueltas que va a girar el elemento
+@mixin girar($num_vueltas){
+    transform: rotate(#{360* $num_vueltas}deg)
+}

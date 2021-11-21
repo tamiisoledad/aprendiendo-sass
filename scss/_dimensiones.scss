@@ -1,0 +1,33 @@
+/* Estilo para el contenedor general de la pagina */
+
+$main-container-width: 80%;
+
+.container{
+    width: $main-container-width;
+    margin: 0px auto;
+}
+
+/// Ancho de los bordes 
+/// @group cards
+$border-width: 0.1rem;
+
+/// Estilos de los bordes
+/// @group cards
+$border-style: "solid";
+
+/// Borde de redondeado pequeñp para los elementos
+/// @group dimensiones
+$border-radius-small: 0.2rem;
+
+/// Borde de redondeado mediano para los elementos
+/// @group dimensiones
+$border-radius: 1rem;
+
+/// Borde de redondeado grande para los elementos
+/// @group dimensiones
+$border-radius-big: 2rem;
+
+
+/// Valor del radio para redondear los botones
+/// @group botones
+$btn-border-radius: 0.4rem;

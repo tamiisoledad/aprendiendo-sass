@@ -1,0 +1,53 @@
+/// @author Tamara Benite<
+
+// Paletas de colores basicas
+
+//Colores generales
+
+/// Color de fondo
+/// @group colores
+$color-background: #ffffff;
+
+/// Color de la fuenta
+/// @group colores
+$color-base: #333333;
+
+//Colores barra de menu
+/// Color de fondo de la barra de Menu
+/// @group menu
+$navbar-background-color: rgb(155,111,145);
+
+/// Color de el texto de los elementos de la barra de menu al pasar el raton sobre ellos
+/// @group menu
+$navbar-color-hover: $color-background;
+
+/// Colores del borde
+/// @group cards
+$border-color: $color-base;
+
+/// Colores para los botones de error
+/// @group botones
+$color-error: #ff0000;
+
+/// Colores para los botones de warning
+/// @group botones
+$color-warning: rgb(239, 241, 120);
+
+/// Colores para los botones de aceptacion
+/// @group botones
+$color-accepted: rgb(55, 138, 0);
+
+/// Colores para los botones normales
+/// @group botones
+$color-normal: rgb(0, 110, 255);
+
+/// Colores para las sombras de los botones al hacer hoover
+/// @group botones
+$color-shadow: #888;
+
+/// Colores para las columnas pares de las tablas
+///  @group botones
+$color-col-pares: #cccccc;
+
+/// Colores para las columnas impares de las tablas
+$color-col-impares: #888888;

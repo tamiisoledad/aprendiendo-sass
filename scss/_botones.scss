@@ -1,0 +1,33 @@
+/// Mapa del que tomares los nombres para interpolarlos
+/// @group botones
+$btn-color: (
+    "error": $color-error,
+    "warning": $color-warning,
+    "accepted": $color-accepted,
+    "normal": $color-normal
+);
+
+//Elemento boton general
+.btn{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: $border-radius;
+    padding: 0.5rem;
+
+    &:hover{
+        box-shadow: 0.4rem/2 0.4rem/2 $color-shadow;
+    }
+
+    &:active{
+        background-color: orange;
+        color: white
+    }
+}
+
+//Clase adicional que le da color
+@each $k, $v in $btn-color {
+    .btn-#{$k} {
+        background-color: $v;
+    }
+}

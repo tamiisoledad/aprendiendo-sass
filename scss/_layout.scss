@@ -1,0 +1,17 @@
+// Le doy un tamaño y un borde para distinguirlos
+//Solo valida para el ejemplo
+//Padre de cada fila
+.row {
+    @include flex_mixin;
+}
+
+/// Numero de elementos maximos que voy a tener a lo ancho del layout
+/// @group layout
+$num_elementos: 8;
+
+//Bucle para general las clases para tamaños medios
+@for $i from 1 to $num_elementos {
+    .row > .col-#{$i}{
+        width: #{anchura_col($i)}+ "%";
+    }
+}
